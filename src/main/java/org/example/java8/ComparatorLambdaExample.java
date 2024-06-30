@@ -14,5 +14,7 @@ public class ComparatorLambdaExample {
         Comparator<Integer> comparatorLambda = (Integer a, Integer b) -> a.compareTo(b);
         System.out.println("Result of the comparator using lambda is :" + comparatorLambda.compare(3, 2));
 
+        Comparator<Integer> comparatorLambdas = ( a,  b) -> a.compareTo(b);
+        System.out.println("Result of the comparator using lambda is :" + comparatorLambdas.compare(3, 2));
     }
 }
