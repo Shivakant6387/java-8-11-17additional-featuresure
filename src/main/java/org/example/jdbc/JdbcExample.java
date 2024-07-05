@@ -10,7 +10,7 @@ public class JdbcExample {
         Connection connection = null;
         Statement statement = null;
         ResultSet resultSet = null;
-        String url = "jdbc:mysql://localhost:3306/jdbc";
+        String url = "jdbc:mysql://localhost:3306/jdbc?useSSL=false";
         String user = "root";
         String password = "data#12345";
         try {
