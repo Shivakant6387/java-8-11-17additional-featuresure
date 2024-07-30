@@ -7,7 +7,13 @@ public class Sales {
         int startDay = Integer.valueOf(args[0]);
         int endDay = Integer.valueOf(args[1]);
         Sales sales = new Sales();
-        sales.calculateTotals(startDay, endDay);
+        Thread thread=new Thread(new Runnable() {
+            @Override
+            public void run() {
+                sales.calculateTotals(startDay, endDay);
+            }
+        });
+        thread.start();
     }
 
     private void calculateTotals(int startDay, int endDay) {
