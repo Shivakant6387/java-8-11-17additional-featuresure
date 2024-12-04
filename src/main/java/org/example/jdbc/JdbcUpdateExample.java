@@ -12,7 +12,7 @@ public class JdbcUpdateExample {
         ResultSet resultSet = null;
         String url = "jdbc:mysql://localhost:3306/jdbc?useSSL=false";
         String user = "root";
-        String password = "data#12345";
+        String password = "shiva@2002#24";
         try{
             connection= DriverManager.getConnection(url,user,password);
             statement=connection.createStatement();

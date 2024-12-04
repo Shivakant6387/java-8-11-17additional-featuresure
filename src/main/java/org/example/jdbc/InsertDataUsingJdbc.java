@@ -9,7 +9,7 @@ public class InsertDataUsingJdbc {
         ResultSet resultSet = null;
         String url = "jdbc:mysql://localhost:3306/jdbc?useSSL=false";
         String user = "root";
-        String password = "data#12345";
+        String password = "shiva@2002#24";
         try {
             //Get a connection to database
             connection = DriverManager.getConnection(url, user, password);

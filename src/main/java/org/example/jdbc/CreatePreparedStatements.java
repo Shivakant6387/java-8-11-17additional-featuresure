@@ -11,7 +11,7 @@ public class CreatePreparedStatements {
 
         String url = "jdbc:mysql://localhost:3306/jdbc?useSSL=false";
         String user = "root";
-        String password = "data#12345";
+        String password = "shiva@2002#24";
 
         try {
             myConn = DriverManager.getConnection(url, user, password);
